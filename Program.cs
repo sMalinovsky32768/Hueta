@@ -5,7 +5,7 @@ using System.Linq;
 Console.Write("Please enter the number of integers: ");
 if (int.TryParse(Console.ReadLine(), out var n))
 {
-    var list = new List<long>();
+    var list = new List<int>();
 
     for (var i = 0; i < n;)
     {
